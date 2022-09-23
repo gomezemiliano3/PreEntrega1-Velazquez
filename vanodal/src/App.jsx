@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Form from './components/Form';
+import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/Cart/ContainerList/ItemListContainer';
 
 const App = () => {
   return (
 
     <>
       <Navbar/>
+      <ItemListContainer/>
     </>
 
   );

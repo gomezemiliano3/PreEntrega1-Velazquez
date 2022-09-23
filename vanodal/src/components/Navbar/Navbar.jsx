@@ -1,6 +1,7 @@
 import React from "react";
-import Form from './Form';
+import Form from "./Form";
 import Sections from "./Sections";
+import CartIcon from "../Cart/CartIcon/CartIcon";
 
 const Navbar = () => {
     return (
@@ -14,6 +15,7 @@ const Navbar = () => {
                         <ul className="navbar-nav me-auto">
                             <Sections/>
                         </ul>
+                <CartIcon/>
                         <Form busqueda="Explora los planes"/>
                     </div>
                 </div>
